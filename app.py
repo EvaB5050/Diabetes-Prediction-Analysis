@@ -21,10 +21,20 @@ df2 = pd.read_csv('Resources/diabetes_prediction_modified.csv')
 
 st.markdown("Please wait while this page loads. This may take a few minutes.")
 
-progress_bar = st.progress(0)
-for perc_completed in range(100):
-    time.sleep(1.2)
-    progress_bar.progress(perc_completed+1)
+progress_text = "Operation in progress. Please wait."
+my_bar = st.progress(0, text=progress_text)
+
+for percent_complete in range(100):
+    time.sleep(0.01)
+    my_bar.progress(percent_complete + 1, text=progress_text)
+time.sleep(1)
+my_bar.empty()
+
+# progress_bar = st.progress(0)
+# for perc_completed in range(100):
+#     time.sleep(1.2)
+#     progress_bar.progress(perc_completed+1)
+
 #cleaning the data by dropping the target column and dividing the data as features(x2) & target(y2)
 # Separate the data into labels and features
 
