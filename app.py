@@ -3,7 +3,6 @@ import streamlit as st
 import time
 import numpy as np
 import pandas as pd
-import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
@@ -45,7 +44,7 @@ y2 = df2['diabetes']
 x2 = df2.drop(columns=['diabetes'])
 
 # Perform train-test split on the data
-x2_train,x2_test,y2_train,y2_test=train_test_split(x2,y2,test_size=0.2,random_state=0)
+x2_train,x2_test,y2_train,y2_test=train_test_split(x2,y2,test_size=0.2,random_state=42)
 
 # Create the model
 model2=RandomForestClassifier(n_estimators=800, random_state=42)
