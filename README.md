@@ -16,4 +16,6 @@ Common symptoms of diabetes include increased thirst, frequent urination, unexpl
 
 Management of diabetes involves maintaining blood sugar levels within a target range through a combination of medication, lifestyle changes (such as a healthy diet and regular exercise), and regular monitoring. Regular medical check-ups are essential for early detection of complications and effective diabetes management.
 
+As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.
+
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)
