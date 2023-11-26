@@ -19,7 +19,7 @@ rad=st.sidebar.radio("Navigation Menu",["Diabetes", "Data"])
 # Loading the Diabetes dataset
 df2 = pd.read_csv('Resources/diabetes_prediction_modified.csv')
 
-st.markdown("Please wait while this page loads. This may take a few minutes.")
+# st.markdown("Please wait while this page loads. This may take a few minutes.")
 
 progress_text = "Operation in progress. Please wait."
 my_bar = st.progress(0, text=progress_text)
