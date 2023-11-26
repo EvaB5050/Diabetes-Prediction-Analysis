@@ -12,16 +12,6 @@ from sklearn.metrics import accuracy_score
 # Build the sidebar of the web app which will help us navigate through the different sections of the entire application
 rad=st.sidebar.radio("Navigation Menu",["Diabetes", "Data"])
 
-#----------
-# Home Page 
-#----------
-
-# # Displays all the available disease prediction options in the web app
-# if rad=="Home":
-#     st.title("Diabetes Predictor")
-#     # st.image("Medical Prediction Home Page.jpg")
-#     st.text("Diabetes Prediction based on the parameters below")
-  
 #--------------------
 # Diabetes Prediction
 #--------------------
@@ -77,7 +67,7 @@ if rad=="Diabetes":
     feature_names = ['gender','age','hypertension','heart_disease','smoking_history','bmi','HbA1c_level','blood_glucose_level']
 
 
-# Create a DataFrame for user input with feature names
+    # Create a DataFrame for user input with feature names
     user_input = pd.DataFrame([[gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level]], columns=feature_names)
     prediction2 = model2.predict(user_input)[0]
     # Display the results
@@ -87,6 +77,11 @@ if rad=="Diabetes":
         elif prediction2==0:
             st.success("You have a low probability of developing Diabetes")
 
+#-------------
+#Data Page
+#-------------
+
+# Set up the Data page
 if rad=="Data":
     # Display information about the loaded data
     st.text("Loaded Data:")
