@@ -47,7 +47,7 @@ x2 = df2.drop(columns=['diabetes'])
 x2_train,x2_test,y2_train,y2_test=train_test_split(x2,y2,test_size=0.2,random_state=42)
 
 # Create the model
-model2=RandomForestClassifier(n_estimators=800, random_state=42)
+model2=RandomForestClassifier(random_state=42)
 # Fit the model with train data (x2_train & y2_train)
 model2.fit(x2_train,y2_train)
 
