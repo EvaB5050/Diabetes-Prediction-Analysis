@@ -16,11 +16,11 @@ rad=st.sidebar.radio("Navigation Menu",["Diabetes", "Data"])
 # Home Page 
 #----------
 
-# Displays all the available disease prediction options in the web app
-if rad=="Home":
-    st.title("Diabetes Predictor")
-    # st.image("Medical Prediction Home Page.jpg")
-    st.text("Diabetes Prediction based on the parameters below")
+# # Displays all the available disease prediction options in the web app
+# if rad=="Home":
+#     st.title("Diabetes Predictor")
+#     # st.image("Medical Prediction Home Page.jpg")
+#     st.text("Diabetes Prediction based on the parameters below")
   
 #--------------------
 # Diabetes Prediction
@@ -59,8 +59,7 @@ model2.fit(x2_train,y2_train)
 if rad=="Diabetes":
     st.title("Diabetes Predictor")
     st.header("Check If You May Be Susceptible to Developing Diabetes")
-    st.header("Check If You May Be Susceptible to Developing Diabetes")
-    st.write("All The Values Should Be In Range Mentioned")
+    st.write("Enter your values within the stated ranges")
     # Set up features as input -> Blood Glucose, HbA1c, Body Mass Index, Age, Smoking History, Heart Disease, Hypertension and Gender.
     # Set a minimum value & maximum value range and step=1 for the user to enter a value.
     # If the user enters a value which is not in the range an alert message will pop up.
