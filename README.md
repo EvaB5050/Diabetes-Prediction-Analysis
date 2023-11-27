@@ -37,19 +37,7 @@ In the United States, blood glucose levels are commonly measured in milligrams p
 
 Body Mass Index (BMI) is a numerical measurement that assesses an individual's body weight in relation to their height. It is a commonly used tool to categorize individuals into different weight status categories.  
 The BMI is calculated by dividing a person's weight in kilograms by the square of their height in meters. The formula is:
-
-BMI
-=
-Weight (kg)
-Height (m)
-2
-BMI= 
-Height (m) 
-2
- 
-Weight (kg)
-​
- 
+BMI = Weight(kg) / Height(m<sup>2</sup>)  
 
 The World Health Organization (WHO) provides the following BMI categories:
 
