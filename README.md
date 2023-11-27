@@ -19,3 +19,7 @@ Management of diabetes involves maintaining blood sugar levels within a target r
 As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.
 
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)
+
+## Explanation of the data parameters
+
+HbA1c, or hemoglobin A1c, is a blood test that provides information about a person's average blood sugar levels over the past two to three months. It measures the percentage of hemoglobin (a protein in red blood cells) that is bound to glucose. The test is commonly used to assess long-term blood sugar control in individuals with diabetes. A higher HbA1c level indicates poorer blood sugar control and an increased risk of diabetes-related complications. The target HbA1c level varies for individuals, and healthcare providers use the results to adjust treatment plans and monitor the effectiveness of diabetes management
