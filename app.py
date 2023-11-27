@@ -30,11 +30,6 @@ for percent_complete in range(100):
     time.sleep(1)
     my_bar.empty()
 
-# progress_bar = st.progress(0)
-# for perc_completed in range(100):
-#     time.sleep(1.2)
-#     progress_bar.progress(perc_completed+1)
-
 #cleaning the data by dropping the target column and dividing the data as features(x2) & target(y2)
 # Separate the data into labels and features
 
@@ -63,7 +58,7 @@ if rad=="Diabetes":
     # Set up features as input -> Blood Glucose, HbA1c, Body Mass Index, Age, Smoking History, Heart Disease, Hypertension and Gender.
     # Set a minimum value & maximum value range and step=1 for the user to enter a value.
     # If the user enters a value which is not in the range an alert message will pop up.
-    blood_glucose_level=st.number_input("Enter Your Blood Glucose Level (0-300)",0,300,1)
+    blood_glucose_level=st.number_input("Enter Your Blood Glucose Level (0-300)mg/dL",0,300,1)
     HbA1c_level=st.number_input("Enter Your HbA1c Level (0-9)",0,9,1)
     bmi=st.number_input("Enter Your Body Mass Index/BMI Value (0-60)",0,60,1)
     age=st.number_input("Enter Your Age (20-80)",min_value=20,max_value=80,step=1)
