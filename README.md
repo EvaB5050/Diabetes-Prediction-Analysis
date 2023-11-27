@@ -31,8 +31,38 @@ For some people, healthcare providers may recommend higher or lower targets base
 In diabetes, blood glucose levels are elevated due to the body's inability to effectively regulate insulin, a hormone that helps cells absorb and use glucose. There are two main types of diabetes: Type 1, where the body doesn't produce insulin, and Type 2, where the body doesn't use insulin properly. Elevated blood glucose levels can lead to various health complications. Regular monitoring, lifestyle changes, and medications are common approaches to manage blood glucose levels in diabetes and prevent associated complications. Individualised targets for blood glucose levels are set in consultation with healthcare providers based on factors such as age, overall health, and the type of diabetes.  
 
 In Australia, when individuals with diabetes monitor their blood glucose using a glucose meter, the results are typically displayed in mmol/L.  
-
 In the United States, blood glucose levels are commonly measured in milligrams per deciliter (mg/dL).  
+
+#### BMI  
+
+Body Mass Index (BMI) is a numerical measurement that assesses an individual's body weight in relation to their height. It is a commonly used tool to categorize individuals into different weight status categories.  
+The BMI is calculated by dividing a person's weight in kilograms by the square of their height in meters. The formula is:
+
+BMI
+=
+Weight (kg)
+Height (m)
+2
+BMI= 
+Height (m) 
+2
+ 
+Weight (kg)
+​
+ 
+
+The World Health Organization (WHO) provides the following BMI categories:
+
+Underweight: BMI less than 18.5
+Normal weight: BMI 18.5 to 24.9
+Overweight: BMI 25 to 29.9
+Obesity (Class I): BMI 30 to 34.9
+Obesity (Class II): BMI 35 to 39.9
+Obesity (Class III): BMI 40 or greater  
+
+While BMI is a convenient screening tool, it does not directly measure body fat or account for variations in muscle mass, distribution of fat, and other factors. Therefore, it is important to interpret BMI results alongside other health assessments for a more comprehensive understanding of an individual's health status.
+
+  
 
 
 
