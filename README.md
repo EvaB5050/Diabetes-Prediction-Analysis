@@ -36,19 +36,21 @@ In the United States, blood glucose levels are commonly measured in milligrams p
 #### BMI  
 
 Body Mass Index (BMI) is a numerical measurement that assesses an individual's body weight in relation to their height. It is a commonly used tool to categorize individuals into different weight status categories.  
-The BMI is calculated by dividing a person's weight in kilograms by the square of their height in meters. The formula is:
+The BMI is calculated by dividing a person's weight in kilograms by the square of their height in metres.  
+The formula is:  
+
 BMI = Weight(kg) / Height(m<sup>2</sup>)  
 
-The World Health Organization (WHO) provides the following BMI categories:
-
-Underweight: BMI less than 18.5
-Normal weight: BMI 18.5 to 24.9
-Overweight: BMI 25 to 29.9
-Obesity (Class I): BMI 30 to 34.9
-Obesity (Class II): BMI 35 to 39.9
+The World Health Organization (WHO) provides the following BMI categories:  
+Underweight: BMI less than 18.5  
+Normal weight: BMI 18.5 to 24.9  
+Overweight: BMI 25 to 29.9  
+Obesity (Class I): BMI 30 to 34.9  
+Obesity (Class II): BMI 35 to 39.9  
 Obesity (Class III): BMI 40 or greater  
 
-While BMI is a convenient screening tool, it does not directly measure body fat or account for variations in muscle mass, distribution of fat, and other factors. Therefore, it is important to interpret BMI results alongside other health assessments for a more comprehensive understanding of an individual's health status.
+While BMI is a convenient screening tool, it does not directly measure body fat or account for variations in muscle mass, distribution of fat, and other factors.  
+It is important to interpret BMI results alongside other health assessments for a more comprehensive understanding of an individual's health status.
 
   
 
