@@ -62,7 +62,7 @@ if rad=="Diabetes":
     HbA1c_level=st.number_input("Enter Your HbA1c Level (0-9)",0,9,1)
     bmi=st.number_input("Enter Your Body Mass Index/BMI Value (0-60)",0,60,1)
     age=st.number_input("Enter Your Age (20-80)",min_value=20,max_value=80,step=1)
-    smoking_history=st.number_input("Enter Your Smoking History 1=never 2=smoked or currently smoking)",0,2,1)
+    smoking_history=st.number_input("Enter Your Smoking History (1=never 2=smoked or currently smoking)",0,2,1)
     heart_disease=st.number_input("Enter 1 for Heart Disease or 0 if no Heart Disease",0,1,1)
     hypertension=st.number_input("Enter 1 for Hypertension or 0 if no Hypertension",0,1,1)
     gender=st.number_input("Enter your Gender (0 for Male or 1 for Female)",0,1,1)
@@ -78,9 +78,9 @@ if rad=="Diabetes":
     # Display the results
     if st.button("Predict"):
         if prediction2==1:
-            st.warning("You may have an increased probability of developing Diabetes, please check with your Doctor")
+            st.warning("You may have an increased probability of developing Diabetes, please contact your Healthcare Professional")
         elif prediction2==0:
-            st.success("You have a low probability of developing Diabetes")
+            st.success("You have a low probability of developing Diabetes. If your circumstances change, please speak with your Healthcare Professional")
 
 #-------------
 #Data Page
