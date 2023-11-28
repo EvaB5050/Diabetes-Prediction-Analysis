@@ -3,7 +3,7 @@
 Machine Learning was employed to predict the probability of developing diabetes, contrasting Logistic Regression and Random Forest models for accuracy, precision, and recall (`diabetes_prediction.ipynb`).    
 The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit (`app.py`).  
 
-A web link to the *** Diabetes Predictor page *** is provided further down in the README.
+A web link to the ***Diabetes Predictor page*** is provided further down in the README.
 
 ## Background
 Diabetes is a chronic medical condition characterised by elevated levels of blood glucose (or blood sugar). This condition occurs when the body either does not produce enough insulin or cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose and allows cells to use glucose for energy. There are three main types of diabetes:
