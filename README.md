@@ -84,7 +84,9 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-<img src="https://adel-data-june-2023.slack.com/files/U058JJS08K1/F067GS6DF45/image.png" width="200" height="200">
+<img src="https://adel-data-june-2023.slack.com/files/U058JJS08K1/F067GS6DF45/image.png" width="200" height="200">  
+<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width="150" height="280">
+
 
 
 
