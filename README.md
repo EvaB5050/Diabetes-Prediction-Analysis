@@ -84,7 +84,10 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-<img src="https://files.slack.com/files-tmb/T04USTCA709-F067GS6DF45-1a5e1465ea/image_720.png" width="200" height="200">  
+
+<img src="https://files.slack.com/files-pri/T04USTCA709-F067GS6DF45/image.png" width="200" height="200">
+
+
 <img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width="150" height="280">
 
 
