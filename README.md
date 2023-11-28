@@ -81,11 +81,69 @@ To convert mg/dL to mmol/L divide the number by 18.1
 Click the link below to launch the interactive web page:  
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)  
 
-## Exploring the Data  
-1. Dropped duplicated rows
+## Exploring the Data 
+1. Check for missing data
+   ```
+   <class 'pandas.core.frame.DataFrame'>
+   RangeIndex: 100000 entries, 0 to 99999
+   Data columns (total 9 columns):
+    #   Column               Non-Null Count   Dtype  
+   ---  ------               --------------   -----  
+    0   gender               100000 non-null  object 
+    1   age                  100000 non-null  float64
+    2   hypertension         100000 non-null  int64  
+    3   heart_disease        100000 non-null  int64  
+    4   smoking_history      100000 non-null  object 
+    5   bmi                  100000 non-null  float64
+    6   HbA1c_level          100000 non-null  float64
+    7   blood_glucose_level  100000 non-null  int64  
+    8   diabetes             100000 non-null  int64  
+   dtypes: float64(3), int64(4), object(2)
+   ```
+2. Drop duplicated rows
     ```
     diab_pred_df.duplicated().sum()
+    3854
     ```
+3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
+    ```
+    Female    56161
+    Male      39967
+    Other        18
+    Name: gender, dtype: int64
+    ```
+4. Rename and regroup the `smoking_history` categories and convert to integers.
+    ```
+    df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})
+    ```
+5. Visualise the data by creating a plot of each feature.
+    ```
+    p = df1.hist(figsize = (20,20))
+    ```
+6. Find the correlation between each feature and diabetes outcome.
+   ```
+   gender                -0.04
+   smoking_history        0.12
+   heart_disease          0.17
+   hypertension           0.20
+   bmi                    0.21
+   age                    0.26
+   HbA1c_level            0.41
+   blood_glucose_level    0.42
+   diabetes               1.00
+   Name: diabetes, dtype: float64
+   ```
+   Blood glucose level has the highest correlation to diabetes and gender has the lowest.
+
+
+   
+
+
+   
+    
+
+     
+    
     
 
 
