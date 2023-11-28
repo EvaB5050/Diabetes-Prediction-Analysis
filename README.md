@@ -87,8 +87,8 @@ Click the link below to launch the interactive web page:
 <img src="https://files.slack.com/files-pri/T04USTCA709-F067GS6DF45/image.png" width="200" height="200"/>
 
 
-
-`<class 'pandas.core.frame.DataFrame'>
+`
+<class 'pandas.core.frame.DataFrame'>
 RangeIndex: 100000 entries, 0 to 99999
 Data columns (total 9 columns):
  #   Column               Non-Null Count   Dtype  
@@ -103,10 +103,11 @@ Data columns (total 9 columns):
  7   blod_glucose_level  100000 non-null  int64  
  8   diabetes             100000 non-null  int64  
 dtypes: float64(3), int64(4), object(2)
-memory usage: 6.9+ MB`
+memory usage: 6.9+ MB
+`
 
 3. Drop duplicated rows
->    diab_pred_df.duplicated().sum()
+>    diab_pred_df.duplicated().sum()  
 >    3854  
 
 4. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
@@ -139,7 +140,7 @@ memory usage: 6.9+ MB`
    ```
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
 
-<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="200" height="200">
+<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
 
 
 
