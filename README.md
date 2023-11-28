@@ -96,52 +96,41 @@ Click the link below to launch the interactive web page:
        4   smoking_history      100000 non-null  object 
        5   bmi                  100000 non-null  float64
        6   HbA1c_level          100000 non-null  float64
-       7   blod_glucose_level  100000 non-null  int64  
+       7   blood_glucose_level  100000 non-null  int64  
        8   diabetes             100000 non-null  int64  
       dtypes: float64(3), int64(4), object(2)</code>
 
-3. Drop duplicated rows
->    diab_pred_df.duplicated().sum()  
->    3854  
+2. Drop duplicated rows
+<code>diab_pred_df.duplicated().sum()  
+      3854</code>  
 
-4. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
-    ``` Female    56161
-        Male      39967
-        Other        18
-        Name: gender, dtype: int64 ```
+3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
+<code>Female    56161
+      Male      39967
+      Other        18
+      Name: gender, dtype: int64</code>
     
-5. Rename and regroup the `smoking_history` categories and convert to integers.
-    ```
-    df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})
-    ```
-6. Visualise the data by creating a plot of each feature.
-    ```
-    p = df1.hist(figsize = (20,20))
-    ```
-7. Find the correlation between each feature and diabetes outcome.
-   ```
-   gender                -0.04
-   smoking_history        0.12
-   heart_disease          0.17
-   hypertension           0.20
-   bmi                    0.21
-   age                    0.26
-   HbA1c_level            0.41
-   blood_glucose_level    0.42
-   diabetes               1.00
-   Name: diabetes, dtype: float64
-   ```
-   Blood glucose level has the highest correlation to diabetes and gender has the lowest.
+4. Rename and regroup the `smoking_history` categories and convert to integers.
+<code>df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})</code>
 
-<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
+5. Visualise the data by creating a plot of each feature.
+<code>p = df1.hist(figsize = (20,20))</code>
 
-<code>never          34398
-      No Info        32887
-      former          9299
-      current         9197
-      not current     6367
-      ever            3998
-      Name: smoking_history, dtype: int64</code>
+6. Find the correlation between each feature and diabetes outcome.
+<code>gender                -0.04
+      smoking_history        0.12
+      heart_disease          0.17
+      hypertension           0.20
+      bmi                    0.21
+      age                    0.26
+      HbA1c_level            0.41
+      blood_glucose_level    0.42
+      diabetes               1.00
+      Name: diabetes, dtype: float64</code>
+Blood glucose level has the highest correlation to diabetes and gender has the lowest.
+
+
+
 
 
 
