@@ -84,8 +84,9 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-https://adel-data-june-2023.slack.com/files/U058JJS08K1/F067GS6DF45/image.png
-<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/135685900/1bf8c9fc-cdad-40ec-9363-15c3cf44756a.png"width="200">
+<img src="https://adel-data-june-2023.slack.com/files/U058JJS08K1/F067GS6DF45/image.png" width="200" height="200">
+
+
 
 
 <class 'pandas.core.frame.DataFrame'>
