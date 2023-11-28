@@ -139,7 +139,7 @@ memory usage: 6.9+ MB
    ```
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
 
-<img src= "https://files.slack.com/files-tmb/T04USTCA709-F067GS6DF45-1a5e1465ea/image_720.png" width="100" height="100">
+<img src= " width="100" height="100">
 
 
 
