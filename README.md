@@ -139,7 +139,7 @@ memory usage: 6.9+ MB
    Name: diabetes, dtype: float64
    ```
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
-
+<span style="background-color: yellow; color: black;">Highlighted text</span>
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
 
 
