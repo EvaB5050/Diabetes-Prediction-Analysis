@@ -141,7 +141,7 @@ memory usage: 6.9+ MB
 
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
 ``
-never          34398
+<code>never          34398</code>
 No Info        32887
 former          9299
 current         9197
