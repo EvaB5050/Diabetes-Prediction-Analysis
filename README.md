@@ -111,12 +111,11 @@ memory usage: 6.9+ MB
 >    3854  
 
 4. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
-    ```
-    Female    56161
-    Male      39967
-    Other        18
-    Name: gender, dtype: int64
-    ```
+    ``` Female    56161
+        Male      39967
+        Other        18
+        Name: gender, dtype: int64 ```
+    
 5. Rename and regroup the `smoking_history` categories and convert to integers.
     ```
     df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})
@@ -139,7 +138,7 @@ memory usage: 6.9+ MB
    Name: diabetes, dtype: float64
    ```
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
-<span style="background-color: yellow; color: black;">Highlighted text</span>
+
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
 
 
