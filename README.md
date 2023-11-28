@@ -1,5 +1,9 @@
 # Diabetes-Prediction-Analysis
 
+Machine Learning was employed to predict the probability of developing diabetes, contrasting Logistic Regression and Random Forest models for accuracy, precision, and recall.   
+The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit on Github.  
+A web link is provided in the README.
+
 ## Background
 Diabetes is a chronic medical condition characterised by elevated levels of blood glucose (or blood sugar). This condition occurs when the body either does not produce enough insulin or cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose and allows cells to use glucose for energy. There are three main types of diabetes:
 
@@ -20,21 +24,22 @@ Management of diabetes involves maintaining blood glucose levels within a target
 
 As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.
 
-[Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)
-
 ## Explanation of the data parameters  
-#### HbA1c  
-HbA1c, or hemoglobin A1c, is a blood test that provides information about a person's average blood glucose levels over the past three months. It measures the percentage of hemoglobin (a protein in red blood cells) that is bound to glucose. The test is commonly used to assess long-term blood glucose management in individuals with diabetes. A higher HbA1c level indicates a higher glucose range and an increased risk of diabetes-related health consequences. The target HbA1c level varies for individuals and healthcare providers use the results to adjust treatment plans and monitor the effectiveness of diabetes management.  
-For people without diabetes: An HbA1c level is typically below 5.7%.  
-For people with diabetes:  An HbA1c level below 7% is often recommended.  
-For some people, healthcare providers may recommend higher or lower targets based on factors such as age, overall health and the presence of other medical conditions.
+#### Gender  
+Females who have experienced gestational diabetes (diabetes during pregnancy) face an elevated risk of developing type 2 diabetes in the future. Furthermore, certain studies indicate a slightly higher diabetes risk in men compared to women.  
 
-#### Blood Glucose  
-In diabetes, blood glucose levels are elevated due to the body's inability to effectively regulate insulin, a hormone that helps cells absorb and use glucose. There are two main types of diabetes: Type 1, where the body doesn't produce insulin, and Type 2, where the body doesn't use insulin properly. Elevated blood glucose levels can lead to various health consequences. Regular monitoring, lifestyle changes, stress management and medications are common approaches to manage blood glucose levels.   
+#### Age  
+As individuals age, decreased physical activity, alterations in hormone levels and an increased probability of encountering other health conditions may contribute to diabetes.  
 
-In Australia, when individuals with diabetes monitor their blood glucose using a glucose meter, the results are typically displayed in mmol/L.  
-In the United States, blood glucose levels are commonly measured in milligrams per deciliter (mg/dL).  
-To convert mg/dL to mmol/L divide the number by 18.1  
+#### Hypertension
+Hypertension, or high blood pressure, is recognised as a risk factor for the onset of diabetes.  
+Persistent elevated blood pressure can contribute to insulin resistance and impaired glucose metabolism, increasing the likelihood of developing type 2 diabetes.  
+
+#### Heart Disease  
+Certain heart conditions or treatments can affect glucose metabolism, potentially increasing the risk of diabetes.  
+
+#### Smoking  
+Smoking can contribute to insulin resistance and impair glucose metabolism. Quitting smoking can markedly diminish the likelihood of developing diabetes and its associated complications.  
 
 #### BMI  
 Body Mass Index (BMI) is a numerical measurement that assesses an individual's body weight in relation to their height. It is a commonly used tool to categorise individuals into different weight status categories.  
@@ -52,9 +57,32 @@ Obesity (Class II): BMI 35 to 39.9
 Obesity (Class III): BMI 40 or greater  
 
 While BMI is a convenient screening tool, it does not directly measure body fat or account for variations in muscle mass, distribution of fat, and other factors.  
-It is important to interpret BMI results alongside other health assessments for a more comprehensive understanding of an individual's health status.
+It is important to interpret BMI results alongside other health assessments for a more comprehensive understanding of an individual's health status.  
+
+#### HbA1c  
+HbA1c, or hemoglobin A1c, is a blood test that provides information about a person's average blood glucose levels over the past three months. It measures the percentage of hemoglobin (a protein in red blood cells) that is bound to glucose. The test is commonly used to assess long-term blood glucose management in individuals with diabetes. A higher HbA1c level indicates a higher glucose range and an increased risk of diabetes-related health consequences. The target HbA1c level varies for individuals and healthcare providers use the results to adjust treatment plans and monitor the effectiveness of diabetes management.  
+For people without diabetes: An HbA1c level is typically below 5.7%.  
+For people with diabetes:  An HbA1c level below 7% is often recommended.  
+For some people, healthcare providers may recommend higher or lower targets based on factors such as age, overall health and the presence of other medical conditions.
+
+#### Blood Glucose  
+In diabetes, blood glucose levels are elevated due to the body's inability to effectively regulate insulin, a hormone that helps cells absorb and use glucose. There are two main types of diabetes: Type 1, where the body doesn't produce insulin, and Type 2, where the body doesn't use insulin properly. Elevated blood glucose levels can lead to various health consequences. Regular monitoring, lifestyle changes, stress management and medications are common approaches to manage blood glucose levels.   
+
+In Australia, when individuals with diabetes monitor their blood glucose using a glucose meter, the results are typically displayed in mmol/L.  
+In the United States, blood glucose levels are commonly measured in milligrams per deciliter (mg/dL).  
+To convert mg/dL to mmol/L divide the number by 18.1  
+
+
 
   
+
+  
+
+  
+
+  
+
+[Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)  
 
 
 
