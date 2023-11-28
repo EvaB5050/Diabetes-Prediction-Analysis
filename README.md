@@ -29,7 +29,7 @@ As of January 2022, it is estimated that approximately 10% of the world's adult 
 Females who have experienced gestational diabetes (diabetes during pregnancy) face an elevated risk of developing type 2 diabetes in the future. Furthermore, certain studies indicate a slightly higher diabetes risk in men compared to women.  
 
 #### Age  
-As individuals age, decreased physical activity, alterations in hormone levels and an increased probability of encountering other health conditions may contribute to diabetes.  
+As individuals age, decreased physical activity, alterations in hormone levels and an increased probability of developing other health conditions may contribute to diabetes.  
 
 #### Hypertension
 Hypertension, or high blood pressure, is recognised as a risk factor for the onset of diabetes.  
