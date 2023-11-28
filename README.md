@@ -1,7 +1,7 @@
 # Diabetes-Prediction-Analysis
 
 Machine Learning was employed to predict the probability of developing diabetes, contrasting Logistic Regression and Random Forest models for accuracy, precision, and recall.   
-The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit on Github.  
+The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit.  
 A web link is provided in the README.
 
 ## Background
