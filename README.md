@@ -84,27 +84,21 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-<img src="https://files.slack.com/files-pri/T04USTCA709-F067GS6DF45/image.png" width="200" height="200"/>
-
-
-`
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 100000 entries, 0 to 99999
-Data columns (total 9 columns):
- #   Column               Non-Null Count   Dtype  
----  ------               --------------   -----  
- 0   gender               100000 non-null  object 
- 1   age                  100000 non-null  float64
- 2   hypertension         100000 non-null  int64  
- 3   heart_disease        100000 non-null  int64  
- 4   smoking_history      100000 non-null  object 
- 5   bmi                  100000 non-null  float64
- 6   HbA1c_level          100000 non-null  float64
- 7   blod_glucose_level  100000 non-null  int64  
- 8   diabetes             100000 non-null  int64  
-dtypes: float64(3), int64(4), object(2)
-memory usage: 6.9+ MB
-`
+<code><class 'pandas.core.frame.DataFrame'>
+      RangeIndex: 100000 entries, 0 to 99999
+      Data columns (total 9 columns):
+       #   Column               Non-Null Count   Dtype  
+      ---  ------               --------------   -----  
+       0   gender               100000 non-null  object 
+       1   age                  100000 non-null  float64
+       2   hypertension         100000 non-null  int64  
+       3   heart_disease        100000 non-null  int64  
+       4   smoking_history      100000 non-null  object 
+       5   bmi                  100000 non-null  float64
+       6   HbA1c_level          100000 non-null  float64
+       7   blod_glucose_level  100000 non-null  int64  
+       8   diabetes             100000 non-null  int64  
+      dtypes: float64(3), int64(4), object(2)</code>
 
 3. Drop duplicated rows
 >    diab_pred_df.duplicated().sum()  
