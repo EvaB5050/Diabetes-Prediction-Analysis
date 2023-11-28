@@ -2,7 +2,7 @@
 
 Machine Learning was employed to predict the probability of developing diabetes, contrasting Logistic Regression and Random Forest models for accuracy, precision, and recall.   
 The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit.  
-A web link is provided in the README.
+A web link is provided further down in the README.
 
 ## Background
 Diabetes is a chronic medical condition characterised by elevated levels of blood glucose (or blood sugar). This condition occurs when the body either does not produce enough insulin or cannot effectively use the insulin it produces. Insulin is a hormone that regulates blood glucose and allows cells to use glucose for energy. There are three main types of diabetes:
@@ -22,7 +22,11 @@ Common symptoms of diabetes include increased thirst, frequent urination, unexpl
 
 Management of diabetes involves maintaining blood glucose levels within a target range through a combination of medication, lifestyle changes (such as healthy eating, regular physical activity, stress management) and regular glucose monitoring. Regular medical check-ups are essential for early detection of health consequences and effective management.
 
-As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.
+As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.  
+
+The `diabetes_prediction_dataset.csv` file contains medical and demographic data of patients along with their diabetes status, whether positive or negative.  
+It consists of various features such as `gender`, `age`, `body mass index (BMI)`, `hypertension`, `heart disease`, `smoking history`, `HbA1c level` and `blood glucose level`.  
+There are 100,000 entries.
 
 ## Explanation of the data parameters  
 #### Gender  
