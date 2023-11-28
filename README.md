@@ -137,6 +137,7 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
 
 ## Model Analysis
 #### Logistic Regression  
+```
               precision    recall  f1-score   support
 
            0       0.96      0.99      0.98     21912
@@ -145,6 +146,7 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
     accuracy                           0.96     24032
    macro avg       0.90      0.81      0.85     24032
 weighted avg       0.95      0.96      0.95     24032
+```
 
 
    
