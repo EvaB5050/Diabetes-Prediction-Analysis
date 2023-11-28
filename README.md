@@ -80,11 +80,11 @@ To convert mg/dL to mmol/L divide the number by 18.1
 
 Click the link below to launch the interactive web page:  
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/) 
-<img src= "https://files.slack.com/files-tmb/T04USTCA709-F067GS6DF45-1a5e1465ea/image_720.png"width="200">
 
 ## Exploring the Data  
 1. Check for missing data
-<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/135685900/6d83da3d-fc7d-4725-ac25-a2affe497b6e"width="200">
+<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/135685900/1bf8c9fc-cdad-40ec-9363-15c3cf44756a.png"width="200">
+
 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 100000 entries, 0 to 99999
