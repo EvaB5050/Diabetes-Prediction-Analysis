@@ -25,6 +25,7 @@ Management of diabetes involves maintaining blood glucose levels within a target
 
 As of January 2022, it is estimated that approximately 10% of the world's adult population has diabetes. The prevalence of diabetes has been increasing globally and varies by region.  
 
+## The Dataset  
 The `diabetes_prediction_dataset.csv` file contains medical and demographic data of patients along with their diabetes status, whether positive or negative.  
 It consists of various features such as `gender`, `age`, `body mass index (BMI)`, `hypertension`, `heart disease`, `smoking history`, `HbA1c level` and `blood glucose level`.  
 There are 100,000 entries.
