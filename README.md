@@ -133,7 +133,21 @@ Click the link below to launch the interactive web page:
       diabetes               1.00
       Name: diabetes, dtype: float64</code>  
       
-Blood glucose level has the highest correlation to diabetes and gender has the lowest.
+Blood glucose level has the highest correlation to diabetes and gender has the lowest.  
+
+## Model Analysis
+#### Logistic Regression  
+
+         <code>precision    recall  f1-score   support
+
+           0       0.96      0.99      0.98     21912
+           1       0.83      0.63      0.71      2120
+
+    accuracy                           0.96     24032
+   macro avg       0.90      0.81      0.85     24032
+weighted avg       0.95      0.96      0.95     24032</code>
+
+
 
 
 
