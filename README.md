@@ -140,7 +140,7 @@ memory usage: 6.9+ MB
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
 
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="300" height="300">
-`
+``
 never          34398
 No Info        32887
 former          9299
@@ -148,7 +148,7 @@ current         9197
 not current     6367
 ever            3998
 Name: smoking_history, dtype: int64
-`
+``
 
 
 
