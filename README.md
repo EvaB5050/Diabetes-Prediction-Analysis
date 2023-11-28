@@ -139,7 +139,8 @@ memory usage: 6.9+ MB
    ```
    Blood glucose level has the highest correlation to diabetes and gender has the lowest.
 
-<img src= " width="100" height="100">
+<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/blob/main/image.png" width="100" height="100">
+
 
 
 
