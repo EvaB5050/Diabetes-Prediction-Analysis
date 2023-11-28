@@ -101,22 +101,27 @@ Click the link below to launch the interactive web page:
       dtypes: float64(3), int64(4), object(2)</code>
 
 2. Drop duplicated rows
+
 <code>diab_pred_df.duplicated().sum()  
       3854</code>  
 
 3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
-<code>Female    56161
-      Male      39967
-      Other        18
+
+<code>Female    56161  
+      Male      39967  
+      Other        18  
       Name: gender, dtype: int64</code>
     
 4. Rename and regroup the `smoking_history` categories and convert to integers.
+
 <code>df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})</code>
 
 5. Visualise the data by creating a plot of each feature.
+
 <code>p = df1.hist(figsize = (20,20))</code>
 
 6. Find the correlation between each feature and diabetes outcome.
+
 <code>gender                -0.04
       smoking_history        0.12
       heart_disease          0.17
@@ -126,7 +131,8 @@ Click the link below to launch the interactive web page:
       HbA1c_level            0.41
       blood_glucose_level    0.42
       diabetes               1.00
-      Name: diabetes, dtype: float64</code>
+      Name: diabetes, dtype: float64</code>  
+      
 Blood glucose level has the highest correlation to diabetes and gender has the lowest.
 
 
