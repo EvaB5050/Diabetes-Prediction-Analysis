@@ -89,22 +89,22 @@ Click the link below to launch the interactive web page:
 
 2. Drop duplicated rows
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/e2b3da85-73dd-45a6-ad35-d1972a11b0b1" width="300" height="100">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/e2b3da85-73dd-45a6-ad35-d1972a11b0b1" width="300" height="80">
 
 
 3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/0aee639c-f299-4f59-91bc-cafda90b837c" width="300" height="150">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/0aee639c-f299-4f59-91bc-cafda90b837c" width="300" height="120">
 
     
 4. Rename and regroup the `smoking_history` categories and convert to integers.
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a" width="300" height="200">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a" width="600" height="50">
 
 
 5. Visualise the data by creating a plot of each feature.
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670" width="300" height="200">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670" width="300" height="50">
 
 
 6. Find the correlation between each feature and diabetes outcome.
@@ -118,13 +118,13 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
 ## Model Analysis
 ### Logistic Regression  
 ```
-![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/8b66a311-9441-4344-b31a-9489fa016a9d)
+<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/8b66a311-9441-4344-b31a-9489fa016a9d" width="500" height="200">
 
 ```
 
 ### Random Forest model  
 ```
-![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/a837096b-5c02-4807-991e-344fe0956fe8)
+<img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/a837096b-5c02-4807-991e-344fe0956fe8" width="500" height="200">
 
 ---
 
