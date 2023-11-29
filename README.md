@@ -136,7 +136,7 @@ Click the link below to launch the interactive web page:
 Blood glucose level has the highest correlation to diabetes and gender has the lowest.  
 
 ## Model Analysis
-#### Logistic Regression  
+### Logistic Regression  
 ```
               precision    recall  f1-score   support
 
@@ -148,7 +148,7 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
 weighted avg       0.95      0.96      0.95     24032
 ```
 
-## Random Forest model  
+### Random Forest model  
 ```
               precision    recall  f1-score   support
 
@@ -162,7 +162,7 @@ weighted avg       0.97      0.97      0.97     24032
 
 **Question:**  
 How well does the logistic regression model predict both the `0` (healthy participants) and `1` (participants with diabetes) labels?  
-How does Random forest model compare with logistic regression model?  
+How does Random Forest model compare with logistic regression model?  
 
 **Answer:**  
 Precision: The ability of the classifier not to label as positive a sample that is negative. For class `0`, it is 96% indicating that when the model predicts class `0`(no diabetes), it is usually correct.  For class `1`, the precision is 85%, suggesting that 85% of the instances predicted as `1`(diabetes) were actually `1`.
