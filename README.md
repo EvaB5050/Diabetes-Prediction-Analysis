@@ -84,7 +84,7 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/d5357f1d-71f1-4cbc-a6fa-bdb9052af65b" width="200" height="200">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/d5357f1d-71f1-4cbc-a6fa-bdb9052af65b" width="300" height="200">
 
 
 2. Drop duplicated rows
