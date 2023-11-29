@@ -89,27 +89,27 @@ Click the link below to launch the interactive web page:
 
 2. Drop duplicated rows
 
-   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/e2b3da85-73dd-45a6-ad35-d1972a11b0b1)
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/e2b3da85-73dd-45a6-ad35-d1972a11b0b1" width="300" height="100">
 
 
 3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
 
-   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/0aee639c-f299-4f59-91bc-cafda90b837c)
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/0aee639c-f299-4f59-91bc-cafda90b837c" width="300" height="150">
 
     
 4. Rename and regroup the `smoking_history` categories and convert to integers.
 
-   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a)
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a" width="300" height="200">
 
 
 5. Visualise the data by creating a plot of each feature.
 
-   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670)
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670" width="300" height="200">
 
 
 6. Find the correlation between each feature and diabetes outcome.
 
-![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/bc308e72-49d0-47d9-9cca-80b2ec927fa7)
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/bc308e72-49d0-47d9-9cca-80b2ec927fa7" width="300" height="200">
 
       
 Blood glucose level has the highest correlation to diabetes and gender has the lowest.  
