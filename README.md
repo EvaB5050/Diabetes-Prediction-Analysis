@@ -117,15 +117,10 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
 ---
 ## Model Analysis
 ### Logistic Regression  
-```
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/8b66a311-9441-4344-b31a-9489fa016a9d" width="500" height="200">
 
-```
-
 ### Random Forest model  
-```
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/a837096b-5c02-4807-991e-344fe0956fe8" width="500" height="200">
-
 ---
 
 **Question:**  
