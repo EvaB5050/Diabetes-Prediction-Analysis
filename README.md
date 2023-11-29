@@ -84,100 +84,68 @@ Click the link below to launch the interactive web page:
 ## Exploring the Data  
 1. Check for missing data
 
-<code><class 'pandas.core.frame.DataFrame'>
-      RangeIndex: 100000 entries, 0 to 99999
-      Data columns (total 9 columns):
-       #   Column               Non-Null Count   Dtype  
-      ---  ------               --------------   -----  
-       0   gender               100000 non-null  object 
-       1   age                  100000 non-null  float64
-       2   hypertension         100000 non-null  int64  
-       3   heart_disease        100000 non-null  int64  
-       4   smoking_history      100000 non-null  object 
-       5   bmi                  100000 non-null  float64
-       6   HbA1c_level          100000 non-null  float64
-       7   blood_glucose_level  100000 non-null  int64  
-       8   diabetes             100000 non-null  int64  
-      dtypes: float64(3), int64(4), object(2)</code>
+   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/d5357f1d-71f1-4cbc-a6fa-bdb9052af65b)
+
 
 2. Drop duplicated rows
 
-<code>diab_pred_df.duplicated().sum()  
-      3854</code>  
+   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/e2b3da85-73dd-45a6-ad35-d1972a11b0b1)
+
 
 3. Convert `gender` to integers and drop `Other` as there were only 18 rows (100,000 rows in dataset) so should not affect the outcome.
 
-<code>Female    56161  
-      Male      39967  
-      Other        18  
-      Name: gender, dtype: int64</code>
+   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/0aee639c-f299-4f59-91bc-cafda90b837c)
+
     
 4. Rename and regroup the `smoking_history` categories and convert to integers.
 
-<code>df1 = df1.replace({'No Info':0, 'never':1, 'former':2, 'current':2, 'not current':2, 'ever':2})</code>
+   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a)
+
 
 5. Visualise the data by creating a plot of each feature.
 
-<code>p = df1.hist(figsize = (20,20))</code>
+   ![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670)
+
 
 6. Find the correlation between each feature and diabetes outcome.
 
-<code>gender                -0.04
-      smoking_history        0.12
-      heart_disease          0.17
-      hypertension           0.20
-      bmi                    0.21
-      age                    0.26
-      HbA1c_level            0.41
-      blood_glucose_level    0.42
-      diabetes               1.00
-      Name: diabetes, dtype: float64</code>  
+![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/bc308e72-49d0-47d9-9cca-80b2ec927fa7)
+
       
 Blood glucose level has the highest correlation to diabetes and gender has the lowest.  
 
+---
 ## Model Analysis
 ### Logistic Regression  
 ```
-              precision    recall  f1-score   support
+![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/8b66a311-9441-4344-b31a-9489fa016a9d)
 
-           0       0.96      0.99      0.98     21912
-           1       0.83      0.63      0.71      2120
-
-    accuracy                           0.96     24032
-   macro avg       0.90      0.81      0.85     24032
-weighted avg       0.95      0.96      0.95     24032
 ```
 
 ### Random Forest model  
 ```
-              precision    recall  f1-score   support
+![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/a837096b-5c02-4807-991e-344fe0956fe8)
 
-           0       0.97      1.00      0.98     21912
-           1       0.94      0.69      0.79      2120
-
-    accuracy                           0.97     24032
-   macro avg       0.96      0.84      0.89     24032
-weighted avg       0.97      0.97      0.97     24032
-```
+---
 
 **Question:**  
 How well does the logistic regression model predict both the `0` (healthy participants) and `1` (participants with diabetes) labels?  
 How does Random Forest model compare with logistic regression model?  
 
 **Answer:**  
-Precision: The ability of the classifier not to label as positive a sample that is negative. For class `0`, it is 96% indicating that when the model predicts class `0`(no diabetes), it is usually correct.  For class `1`, the precision is 85%, suggesting that 85% of the instances predicted as `1`(diabetes) were actually `1`.
+_Precision_: The ability of the classifier not to label as positive a sample that is negative. For class `0`, it is 96% indicating that when the model predicts class `0`(no diabetes), it is usually correct.  For class `1`, the precision is 85%, suggesting that 85% of the instances predicted as `1`(diabetes) were actually `1`.
 
-Recall: The ability of the classifier to find all the positive samples. For class `0`, it is 99%, suggesting that the model captures most of the actual class `0` instances. For class `1`, it is lower at 63%, indicating that the model misses some of the actual class `1`(diabetes) instances.
+_Recall_: The ability of the classifier to find all the positive samples. For class `0`, it is 99%, suggesting that the model captures most of the actual class `0` instances. For class `1`, it is lower at 63%, indicating that the model misses some of the actual class `1`(diabetes) instances.
 
-F1-score: The harmonic mean of precision and recall. It provides a balance between precision and recall. Class `0` has a high F1-score (0.98), while class `1` has a lower but still reasonable F1-score (0.72).
+_F1-score_: The harmonic mean of precision and recall. It provides a balance between precision and recall. Class `0` has a high F1-score (0.98), while class `1` has a lower but still reasonable F1-score (0.72).
 
-Support: The number of actual occurrences of the class in this dataset. Class `0` has significantly more instances (21912) compared to class `1` (2120).
+_Support_: The number of actual occurrences of the class in this dataset. Class `0` has significantly more instances (21912) compared to class `1` (2120).
 
-Accuracy: The overall correctness of the model, meaning that 96% of all instances are correctly classified.
+_Accuracy_: The overall correctness of the model, meaning that 96% of all instances are correctly classified.
 
-Macro avg: The average of the precision, recall, and F1-score for both classes, without considering class imbalance.
+_Macro avg_: The average of the precision, recall, and F1-score for both classes, without considering class imbalance.
 
-Weighted avg: The weighted average of precision, recall, and F1-score, where the weights are the support values for each class. It accounts for class imbalance. Since class `0` has significantly more instances, the weighted average leans more towards the metrics for class `0`(no diabetes). The weighted average precision, recall, and F1-score are 95%, 96%, and 95% respectively.
+_Weighted avg_: The weighted average of precision, recall, and F1-score, where the weights are the support values for each class. It accounts for class imbalance. Since class `0` has significantly more instances, the weighted average leans more towards the metrics for class `0`(no diabetes). The weighted average precision, recall, and F1-score are 95%, 96%, and 95% respectively.
 
 In summary, the model performs well overall with high accuracy, but there is a notable difference in performance between the two classes. Class `0`(no diabetes) is well-predicted with high precision and recall. For class `1`(diabetes) it is weaker, especially in recall at 63%, indicating that it struggles more to correctly identify instances of class `1`.
 
