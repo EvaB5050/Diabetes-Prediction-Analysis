@@ -83,6 +83,10 @@ $${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \colo
 
 :-:[Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/)  
 
+<p align="center">
+  <a href="https://diabetes-prediction-analysis-2023.streamlit.app/">Diabetes Predictor page</a>
+</p>
+
 ## Exploring the Data  
 1. Check for missing data
 
