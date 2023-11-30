@@ -138,7 +138,8 @@ F1-scores are comparable between the two models for class 0.
 
 Class 1 (Participants with Diabetes):  
 The Random Forest model outperforms the Logistic Regression model for classifying participants with diabetes (label 1).
-The Random Forest model has a higher precision (94% vs. 83%) and recall (69% vs. 63%).
+The Random Forest model has a higher precision (94% vs. 83%), indicating fewer false positives.  
+The Random Forest model also has higher recall (69% vs. 63%), meaning it captures more true positives among all actual positives.
 The f1-score for class 1 is notably higher for the Random Forest model (79% vs. 71%).  
 
 In summary, both models excel in classifying healthy participants (label 0), with the Random Forest model showing a slight edge. However, the Random Forest model significantly outperforms the Logistic Regression model in identifying participants with diabetes (label 1), achieving higher precision, recall, and f1-score. This suggests that the Random Forest model is more effective in distinguishing individuals with diabetes from the healthy population compared to the Logistic Regression model.
