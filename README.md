@@ -99,12 +99,12 @@ Click the link below to launch the interactive web page:
     
 4. Rename and regroup the `smoking_history` categories and convert to integers.
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a" width="1100" height="20">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/56702a39-5c7f-4f30-8e4b-f95cff77ea6a" width="1000" height="25">
 
 
 5. Visualise the data by creating a plot of each feature.
 
-   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670" width="300" height="20">
+   <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/29380a7c-f552-4d2c-8a76-813b4e56f670" width="300" height="25">
 
 
 6. Find the correlation between each feature and diabetes outcome.
