@@ -123,28 +123,19 @@ Blood glucose level has the highest correlation to diabetes and gender has the l
 <img src="https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/131424690/a837096b-5c02-4807-991e-344fe0956fe8" width="500" height="200">
 ---
 
-**Question:**  
-How well does the logistic regression model predict both the `0` (healthy participants) and `1` (participants with diabetes) labels?  
-How does Random Forest model compare with logistic regression model?  
+Comparison:
 
-**Answer:**  
-_Precision_: The ability of the classifier not to label as positive a sample that is negative. For class `0`, it is 96% indicating that when the model predicts class `0`(no diabetes), it is usually correct.  For class `1`, the precision is 85%, suggesting that 85% of the instances predicted as `1`(diabetes) were actually `1`.
+Class 0 (Healthy Participants):  
+Both models perform well for classifying healthy participants (label 0).
+The Random Forest model has a slightly higher precision (97% vs. 96%) and perfect recall (100% vs. 99%) for this class.
+F1-scores are comparable between the two models for class 0.  
 
-_Recall_: The ability of the classifier to find all the positive samples. For class `0`, it is 99%, suggesting that the model captures most of the actual class `0` instances. For class `1`, it is lower at 63%, indicating that the model misses some of the actual class `1`(diabetes) instances.
+Class 1 (Participants with Diabetes):  
+The Random Forest model outperforms the Logistic Regression model for classifying participants with diabetes (label 1).
+The Random Forest model has a higher precision (94% vs. 83%) and recall (69% vs. 63%).
+The f1-score for class 1 is notably higher for the Random Forest model (79% vs. 71%).  
 
-_F1-score_: The harmonic mean of precision and recall. It provides a balance between precision and recall. Class `0` has a high F1-score (0.98), while class `1` has a lower but still reasonable F1-score (0.72).
-
-_Support_: The number of actual occurrences of the class in this dataset. Class `0` has significantly more instances (21912) compared to class `1` (2120).
-
-_Accuracy_: The overall correctness of the model, meaning that 96% of all instances are correctly classified.
-
-_Macro avg_: The average of the precision, recall, and F1-score for both classes, without considering class imbalance.
-
-_Weighted avg_: The weighted average of precision, recall, and F1-score, where the weights are the support values for each class. It accounts for class imbalance. Since class `0` has significantly more instances, the weighted average leans more towards the metrics for class `0`(no diabetes). The weighted average precision, recall, and F1-score are 95%, 96%, and 95% respectively.
-
-In summary, the model performs well overall with high accuracy, but there is a notable difference in performance between the two classes. Class `0`(no diabetes) is well-predicted with high precision and recall. For class `1`(diabetes) it is weaker, especially in recall at 63%, indicating that it struggles more to correctly identify instances of class `1`.
-
-The Random Forest model returns a higher F1-score especially for Class `1` of 79% compared to 71% for the logistic regression model. The Random Forest model also gives a better Class `1` precision of 94% and recall of 69% which means the Random Forest model is more accurate.  
+In summary, both models excel in classifying healthy participants (label 0), with the Random Forest model showing a slight edge. However, the Random Forest model significantly outperforms the Logistic Regression model in identifying participants with diabetes (label 1), achieving higher precision, recall, and f1-score. This suggests that the Random Forest model is more effective in distinguishing individuals with diabetes from the healthy population compared to the Logistic Regression model.
 
 We used the Random Forest model for our Diabetes Predictor web page.
  
