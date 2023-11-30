@@ -78,7 +78,7 @@ In Australia, when individuals with diabetes monitor their blood glucose using a
 In the United States, blood glucose levels are commonly measured in milligrams per deciliter (mg/dL).  
 To convert mg/dL to mmol/L divide the number by 18.1  
 
-<code style="color : darkorange">Click the link below to launch the interactive web page:</code> $${\color{darkorange}Click the link below to launch the interactive web page:}$$  
+**$${\color{cyan}Click \space \the \space \link \space \below \space \to \space \launch \space \the \space \interactive \space \web \space \page:}$$**  
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/) 
 
 ## Exploring the Data  
