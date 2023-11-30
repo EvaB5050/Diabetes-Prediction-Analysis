@@ -79,7 +79,7 @@ In the United States, blood glucose levels are commonly measured in milligrams p
 To convert mg/dL to mmol/L divide the number by 18.1  
 
 <p align="left">
-   <a href=$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space \color{blue}page:}$$</a>
+   $${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space             \color{blue}page:}$$
 </p>
 
 <p align="left">
