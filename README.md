@@ -77,16 +77,8 @@ In diabetes, blood glucose levels are elevated due to the body's inability to ef
 In Australia, when individuals with diabetes monitor their blood glucose using a glucose meter, the results are typically displayed in mmol/L.  
 In the United States, blood glucose levels are commonly measured in milligrams per deciliter (mg/dL).  
 To convert mg/dL to mmol/L divide the number by 18.1  
-
-<div dir="ltr">$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space \color{blue}page:}$$</div>
-
-$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$ 
-:- $$
-{\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space \color{blue}page:}
-$$
-:- $$
-{\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space \color{blue}page:}
-$$
+<br>
+$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space \color{blue}page:}$$
 
 [Diabetes Predictor page](https://diabetes-prediction-analysis-2023.streamlit.app/) 
 
