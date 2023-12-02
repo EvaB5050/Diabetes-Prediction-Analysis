@@ -29,12 +29,20 @@ if rad=="Home":
 # Loading the Diabetes dataset
 df2 = pd.read_csv('Resources/diabetes_prediction_modified.csv')
 
-# st.markdown("The Diabetes Predictor page is loading...  Please wait.")
-progress_text = st.markdown("The Diabetes Predictor page is loading...  Please wait.")
-my_bar = st.progress(0, text=progress_text)
+# Show the page loading
+progress_text = "The Diabetes Predictor page is loading... Please wait."
+
+st.markdown(progress_text)
+
+my_bar = st.progress(0)
+
 for percent_complete in range(100):
     time.sleep(0.01)
-    my_bar.progress(percent_complete + 1, text=progress_text)
+    my_bar.progress(percent_complete + 1)
+
+# Display text alongside the progress bar
+st.text("Loading complete")
+
 time.sleep(1)
 my_bar.empty()
 
