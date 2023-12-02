@@ -32,8 +32,8 @@ df2 = pd.read_csv('Resources/diabetes_prediction_modified.csv')
 # Show the page loading
 progress_text = "The Diabetes Predictor page is loading... Please wait."
 
-st.markdown(progress_text)
-
+# st.markdown(progress_text)
+my_text = st.markdown(progress_text)
 my_bar = st.progress(0)
 
 for percent_complete in range(100):
@@ -42,6 +42,7 @@ for percent_complete in range(100):
 
 time.sleep(1)
 my_bar.empty()
+my_text.empty()
 
  
 #cleaning the data by dropping the target column and dividing the data as features(x2) & target(y2)
