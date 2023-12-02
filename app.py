@@ -29,22 +29,19 @@ if rad=="Home":
 # Loading the Diabetes dataset
 df2 = pd.read_csv('Resources/diabetes_prediction_modified.csv')
 
-# Show the page loading
-progress_text = "The Diabetes Predictor page is loading... Please wait."
 
-# st.markdown(progress_text)
+progress_text = "The Diabetes Predictor page is loading... Please wait."
 my_text = st.markdown(progress_text)
 my_bar = st.progress(0)
 
 for percent_complete in range(100):
     time.sleep(0.01)
     my_bar.progress(percent_complete + 1)
-
+    
 time.sleep(1)
-my_bar.empty()
 my_text.empty()
-
- 
+my_bar.empty()
+    
 #cleaning the data by dropping the target column and dividing the data as features(x2) & target(y2)
 # Separate the data into labels and features
 
@@ -90,7 +87,7 @@ if rad == "Diabetes":
             user_input = pd.DataFrame([[gender, age, hypertension, heart_disease, smoking_history, bmi, HbA1c_level, blood_glucose_level]], columns=feature_names)
             
             prediction2 = model2.predict(user_input)[0]
-            
+        
        
             
             # Display the results
