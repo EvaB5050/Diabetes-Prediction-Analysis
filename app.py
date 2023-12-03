@@ -93,8 +93,10 @@ if rad == "Diabetes":
             # Display the results
             if prediction2 == 1:
                 st.warning("You may have an increased probability of developing Diabetes, please check with your Doctor")
+                st.snow()
             elif prediction2 == 0:
                 st.success("You have a low probability of developing Diabetes")
+                st.balloons()
                 
 
 
