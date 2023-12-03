@@ -80,7 +80,7 @@ To convert mg/dL to mmol/L divide the number by 18.1
 <br>
 <br>
 
-$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{blue}interactive \space \color{blue}web \space             \color{blue}page:}$$ 
+$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{orange}interactive \space \color{orange}web \space             \color{orange}page:}$$ 
 <p align="center">
   <a href="https://diabetes-prediction-analysis-2023.streamlit.app/">Diabetes Predictor page</a>
 </p>  
