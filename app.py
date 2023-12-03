@@ -69,7 +69,7 @@ if rad == "Diabetes":
     st.write("All The Values Should Be In Range Mentioned")
     
     with st.form(key='my_form'):
-        blood_glucose_level = st.number_input("Enter Your Blood Glucose Level (0-300)", 0, 300, 1)
+        blood_glucose_level = st.number_input("Enter Your Blood Glucose Level (0-300)mg/dL", 0, 300, 1)
         HbA1c_level = st.number_input("Enter Your HbA1c Level (0-9)", 0, 9, 1)
         bmi = st.number_input("Enter Your Body Mass Index/BMI Value (0-60)", 0, 60, 1)
         age = st.number_input("Enter Your Age (20-80)", min_value=20, max_value=80, step=1)
@@ -103,8 +103,6 @@ if rad == "Diabetes":
 
 if rad=="Data":
     # Display information about the loaded data
-    st.text("Loaded Data:")
-    st.markdown("Please wait while this page loads.  This may take a few minutes.")
     st.write("Data Shape:", df2.shape)
     y2_pred = model2.predict(x2_test)
     accuracy = accuracy_score(y2_test, y2_pred)
