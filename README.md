@@ -1,5 +1,8 @@
 # Diabetes-Prediction-Analysis
 
+![image](https://github.com/EvaB5050/Diabetes-Prediction-Analysis/assets/135685900/7b5ffbdc-1d20-4e96-8cdf-725e2aea6be7)
+
+
 Machine Learning was employed to predict the probability of developing diabetes, contrasting Logistic Regression and Random Forest models for accuracy, precision, and recall (`diabetes_prediction.ipynb`).    
 The Random Forest model, proving more accurate, was utilised to launch an interactive web page via Streamlit (`app.py`).  
 
@@ -80,7 +83,7 @@ To convert mg/dL to mmol/L divide the number by 18.1
 <br>
 <br>
 
-$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{blue}to \space \color{blue}launch \space \color{blue}the \space \color{orange}interactive \space \color{orange}web \space             \color{orange}page:}$$ 
+$${\color{blue}Click \space \color{blue}the \space \color{blue}link \space \color{blue}below \space \color{yellowgreen}to \space \color{yellowgreen}launch \space \color{orangered}the \space \color{orangered}interactive \space \color{orangered}web \space \color{orangered}page:}$$ 
 <p align="center">
   <a href="https://diabetes-prediction-analysis-2023.streamlit.app/">Diabetes Predictor page</a>
 </p>  
